@@ -14,3 +14,7 @@ if ($('#<%=TxtbxLanguageskills.ClientID %>').val() == "") {
                 showErrormsg('Choose Language', 'bg-red', 0)
                 return false;
             }
+
+$('#EmbedPDF').attr('src', PdfUrl);
+
+varstring.replace("contains", "hello everyone"); 
